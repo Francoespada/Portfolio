@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Fredoka:wght@300&family=Nunito:ital@1&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(41, 40, 40);
+    border-bottom: 3px solid black;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+nav img{
+    height: 220px;
+    width: 250px;
+    margin: 10px;
+}
+
+.opciones{
+    display: flex;
+    margin: 5px 50px;
+    list-style: none;
+}
+
+.opciones-txt{
+    margin-right: 50px;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(255, 26, 71);
+    font-size: 20px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    text-decoration: none;  
+    transition-duration: 500ms;
+}
+
+.opciones-txt:hover{
+    font-size: 22px;
+}
+
+
+.contenedor-presentacion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.presentacion-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+}
+
+.presentacion-img img{
+    width: 600px;
+    height: 600px;
+}
+
+.presentacion-txt{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.presentacion-icn{
+    background-color:#292828 ;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 26, 71);
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.336);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+.presentacion-icn:hover{
+    cursor: pointer;
+}
+
+.presentacion-txt h1,h2{
+    margin-bottom: 20px;
+}
+
+.presentacion-txt h2{
+    color:rgb(255, 26, 71);
+}
+
+.contenedor-sobre-mi{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-sobre-mi{
+    width: 60%;
+    height: 750px;
+    display: flex;
+    margin-right: 700px;
+    border-radius: 20px;
+    background-color: rgb(41, 40, 40);
+    border-bottom: 5px solid black;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.sobre-mi-txt{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 400px;
+    color: rgb(255, 26, 71);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.sobre-mi-txt-cont{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    top: 200px;
+}
+
+.sobre-mi-txt-cont h1{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-txt-cont h3{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sobre-mi-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.sobre-mi-img img{
+    width: 100%;
+    height: 300px;
+}
+
+.contenedor-herramientas{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-herramientas{
+    width: 60%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    border-radius: 20px;
+    background-color: rgb(41, 40, 40);
+    border-bottom: 5px solid black;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.div-herramientas-txt{
+    width: 100%;
+    height: 10vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-herramientas h1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(255, 26, 71);
+    border-bottom: rgb(255, 26, 71) 4px solid;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.div-herramientas-cards{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.herramientas-cards{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292828;
+    margin: 100px 20px 0 20px;
+    border-radius: 5px;
+    box-shadow: 7px 8px 5px 0px black;
+    -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+.div-herramientas-cards img{
+    width: 80%;
+    height: 250px;
+}
+
+.contenedor-proyectos{
+    width: 90%;
+    height: 900px;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.div-proyectos{
+    background-color: #292828;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.div-proyectos img{
+    width: 80%;
+    height: 700px;
+}
+
+.div-proyectos-h1{
+    width: 60%;
+    height: 50px;
+    margin-top:  30px;
+    color: rgb(255, 26, 71);  
+    font-family: 'Abel', sans-serif;
+    font-family: 'Fredoka', sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+    display: flex; 
+    justify-content: center;
+    border-bottom: rgb(255, 26, 71) 4px solid;
+
+}
+
+.div-proyectos-cards{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292828;
+    margin: 100px 20px 0 20px;
+    border: rgb(255, 26, 71) solid 3px;
+    border-radius: 5px;
+    box-shadow: 7px 8px 5px 0px black;
+    -webkit-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 8px 5px 0px rgba(0,0,0,0.75);
+}
